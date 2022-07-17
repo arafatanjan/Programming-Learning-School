@@ -1,18 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
-const MiddleItems = () => {
+const Product = () => {
     const [programs, setPrograms] = useState([]);
     useEffect(() => {
         fetch('program.JSON')
             .then(res => res.json())
             .then(data => console.log(data.slice(0, 4)));
     }, [])
-
     return (
         <div>
-            {/* <h2>Our Services:{programs.length}</h2> */}
+
         </div>
     );
 };
 
-export default MiddleItems;
+export default Product;

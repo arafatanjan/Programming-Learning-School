@@ -1,0 +1,9 @@
+.middleitem-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid: 10px;
+    margin: 20px;
+    padding-left: 20px; */
+    /* width: 0px; */
+
+}

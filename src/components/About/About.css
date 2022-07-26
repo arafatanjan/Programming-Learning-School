@@ -1,0 +1,13 @@
+.carousel-container {
+    justify-content: center;
+    /* flex: auto; */
+}
+
+.carousel-text {
+    font-weight: bold;
+    color: yellow;
+}
+
+.about-container {
+    padding-left: 50px;
+}
